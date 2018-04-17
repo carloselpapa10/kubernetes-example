@@ -116,11 +116,6 @@
 			                <directory>${docker.baseDir}</directory>
 			                <include>wait-for-mysql.sh</include>
 			            </resource>
-			            <resource>
-			                <targetPath>/</targetPath>
-			                <directory>${docker.baseDir}</directory>
-			                <include>wait-for-it.sh</include>
-			            </resource>
                     </resources>
 				</configuration>
 	        </plugin>
